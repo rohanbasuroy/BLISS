@@ -1,5 +1,6 @@
 # Bliss: Auto-tuning Complex Applications using a Pool of Diverse Lightweight Learning Models 
-
+If you use BLISS in your scientific article, please cite our PLDI 2021 paper: </br>
+*Rohan Basu Roy, Tirthak Patel, Vijay Gadepally, and Devesh Tiwari. 2021. Bliss: auto-tuning complex applications using a pool of diverse lightweight learning models. In Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI 2021). Association for Computing Machinery, New York, NY, USA, 1280–1295. DOI:https://doi.org/10.1145/3453483.3454109* </br>
 ## Dependencies:
 Please install the following library dependencies in Python3.6 to run BLISS. <\br>
 ```
