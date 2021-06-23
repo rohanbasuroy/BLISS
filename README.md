@@ -16,8 +16,8 @@ To run BLISS without portability aid, run ``` sudo python3 ./setup/main.py ``` <
 To run BLISS with portability aid, ``` sudo python3 ./setup/main_portabe.py ``` </br>
 Note that, to run BLISS, define the search space, application binary path, and also ensure that your system supports tuning of hardware parameters like hyperthreading, uncore frequency and core frequency. If your system does not support changing these hardware parameters, run BLISS with only software parameters and accordingly define the search space. </br>
 BLISS generates the following major files as output data: </br>
-(1) *exe_list.txt:* It contains the execution time of all the configurations sampled.
-(2) *lookahead_list.txt:* It contains the the information about how many sample evaluations were skipped by BLISS. Their values are predicted from BLISS' surrogate model.
-(3) *delay_list.txt:* It contains the number of sampling done before BLISS decides attains maturity.
-(4) *model_list.txt:* It contains the BO models chosen by BLISS in each sample evaluation.
-(5) *param_list.txt:* It contains the parameter configuration chosen in each sample evaluation. 
+(1) *exe_list.txt:* It contains the execution time of all the configurations sampled. </br>
+(2) *lookahead_list.txt:* It contains the the information about how many sample evaluations were skipped by BLISS. Their values are predicted from BLISS' surrogate model. </br>
+(3) *delay_list.txt:* It contains the number of sampling done before BLISS decides attains maturity.</br>
+(4) *model_list.txt:* It contains the BO models chosen by BLISS in each sample evaluation.</br>
+(5) *param_list.txt:* It contains the parameter configuration chosen in each sample evaluation.</br> 
